@@ -1,0 +1,139 @@
+/* Large devices (laptops/desktops, 992px and up) xl */
+@media (max-width: 1199px) {
+  .header-section .heading {
+    margin-bottom: 80px;
+  }
+  .heading p {
+    margin-bottom: 25px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) lg*/
+@media (max-width: 991px) {
+  .navbar-nav{
+    margin-top: 15px;
+  }
+  .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .navbar-light .navbar-nav .nav-item{
+    display: flex;
+  }
+  .btn-custom {
+    font-size: 12px;
+}
+  .header-section .heading {
+    margin-bottom: 55px;
+  }
+  .heading h1 {
+    font-size: 35px;
+    margin-bottom: 0;
+  }
+  .heading p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    margin-top: 0;
+  }
+  .heading .bottom-line {
+    margin-bottom: 15px;
+  }
+  .list-unstyled li{
+    margin: 10px 0;
+  }
+  .contact-form {
+    transform: translateY(0);
+    margin-bottom: 30px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) md */
+@media (max-width: 767px) {
+  .navbar-light .navbar-nav .nav-link {
+    position: relative;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .navbar-nav {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .btn-custom {
+    font-size: 12px;
+}
+  .header-section .col-lg-6.col-md-6.col-sm-10 {
+    display: none;
+  }
+  .review-box {
+    padding-bottom: 55px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .review-box .nav, .eye-catcher-section .nav{
+    justify-content: center;
+  }
+  .contact-section .col-md-4.col-sm-7.col{
+    display: none;
+  }
+  .eye-catcher-section{
+    text-align: center;
+  }
+}
+/* Extra small devices (phones, 600px and down) sm*/
+@media (max-width: 575px) {
+  .header-section {
+    margin-top: 35px;
+  }
+  .header-section .heading {
+    text-align: center;
+  }
+  .header-section .heading .nav{
+    justify-content: center;
+  }
+  .btn-custom {   
+    font-size: 10px;
+
+}
+
+  .contact-form .col.no-gutters{
+    -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+}
+/* Extra Extra small devices (iphonex, 375px and down) col */
+@media (max-width: 375px) {
+  .header-section {
+    margin-top: 15px;
+  }
+  .heading h1 {
+    margin-bottom: 30px;
+  }
+  .heading p {
+    margin-bottom: 30px;
+  }
+  .heading h2 {
+  font-size: 28px;
+  }
+  .btn-custom { 
+    font-size: 10px; 
+    padding: 10px 39px !important;
+        margin-bottom: 12px;
+    }
+   
+  .Pricings-and-Plans-section .col-lg-3.col-md-5.col-sm-6.col-6{
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .contact-section .col-md-4.col-sm-6.col {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+  .footer-part, .social-icon {
+    width: 100%;
+  }
+}
